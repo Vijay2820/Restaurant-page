@@ -1,0 +1,286 @@
+ /* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    color: #f57f17;
+    text-decoration: none;
+}
+hero-content{
+     color: #000;
+
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5em;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    color: #fff;
+    background: #f57f17;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #e64a19;
+}
+
+/* Menu Section */
+section {
+    padding: 2em 0;
+}
+
+section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.menu-category {
+    margin-bottom: 2em;
+}
+
+.menu-category h3 {
+    border-bottom: 2px solid #f57f17;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.menu-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.menu-item h4 {
+    margin: 0;
+}
+
+.menu-item span {
+    display: block;
+    margin-top: 0.5em;
+    font-weight: bold;
+    color: #f57f17;
+}
+
+/* About Section */
+#about {
+    background: #f9f9f9;
+    padding: 2em 0;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+/* Gallery Section */
+#gallery {
+    background: #fff;
+    padding: 2em 0;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.gallery-item {
+    flex: 1;
+    min-width: calc(25% - 1em);
+   
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+/* Contact Section */
+#contact {
+    background: #f4f4f4;
+    padding: 2em 0;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background: #f57f17;
+    color: #fff;
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background: #e64a19;
+}
+
+.contact-info {
+    margin-top: 1em;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery-item {
+        min-width: calc(50% - 1em);
+    }
+
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5em 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .btn-primary {
+        padding: 0.5em 1em;
+        font-size: 0.9em;
+    }
+
+    .gallery-item {
+        min-width: 100%;
+    }
+}
+
+
+  

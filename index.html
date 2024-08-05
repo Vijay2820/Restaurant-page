@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Indian Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Vijay Indian Restaurant</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Vijay Indian Restaurant</h2>
+            <p>Experience the rich flavors of authentic Indian cuisine in a warm and inviting atmosphere.</p>
+            <a href="#menu" class="btn-primary">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-category">
+                <h3>Starters</h3>
+                <div class="menu-item">
+                    <h4>Vegetable Samosas</h4>
+                    <p>Crispy pastries filled with spiced vegetables.</p>
+                    <span>$5.00</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Chicken Tikka</h4>
+                    <p>Marinated chicken pieces grilled to perfection.</p>
+                    <span>$7.00</span>
+                </div>
+            </div>
+            <div class="menu-category">
+                <h3>Main Courses</h3>
+                <div class="menu-item">
+                    <h4>Butter Chicken</h4>
+                    <p>Tender chicken simmered in a creamy tomato sauce.</p>
+                    <span>$14.00</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Palak Paneer</h4>
+                    <p>Cottage cheese cooked with spinach and spices.</p>
+                    <span>$12.00</span>
+                </div>
+            </div>
+            <div class="menu-category">
+                <h3>Desserts</h3>
+                <div class="menu-item">
+                    <h4>Gulab Jamun</h4>
+                    <p>Sweet syrup-soaked dough balls.</p>
+                    <span>$6.00</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Ras Malai</h4>
+                    <p>Soft cheese dumplings in a creamy milk sauce.</p>
+                    <span>$6.50</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Vijay Indian Restaurant, we are passionate about delivering an exceptional dining experience. Our menu features a wide array of traditional Indian dishes made with authentic spices and ingredients. Our chefs bring years of experience to the table, ensuring every dish is cooked to perfection.</p>
+            <p>Located in the heart of the city, Vijay offers a cozy and elegant setting where you can enjoy your meal with family and friends. Join us and indulge in the best Indian cuisine that our city has to offer.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://static.toiimg.com/thumb/msid-88426942,width-960,height-1280,resizemode-6.cms" alt="Dish 1"></div>
+                <div class="gallery-item"><img src="https://www.tamingtwins.com/wp-content/uploads/2023/02/image-48.jpeg" alt="Dish 2"></div>
+                <div class="gallery-item"><img src="https://carameltintedlife.com/wp-content/uploads/2022/02/kadai-paneer-3.jpg" alt="Dish 3"></div>
+                <div class="gallery-item"><img src="https://rakskitchen.net/wp-content/uploads/2012/07/paneer-butter-masala.jpg" alt="Dish 4"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Address: yamjal</p>
+                <p>Phone: 8520*****8</p>
+                <p>Email: mvijaykumar2820.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vijay Indian Restaurant. All rights reserved.</p>
+            <p>vijay</p>
+        </div>
+    </footer>
+</body>
+</html>
