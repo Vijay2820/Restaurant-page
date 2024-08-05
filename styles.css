@@ -39,6 +39,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 header h1 {
@@ -76,7 +77,7 @@ nav ul li a {
 .hero-content {
     max-width: 600px;
     margin: 0 auto;
-    colour:black;
+    color: #000;
 }
 
 .hero h2 {
